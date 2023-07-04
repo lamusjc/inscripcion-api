@@ -24,21 +24,6 @@ module.exports = {
     register: sql("./user/register.sql"),
   },
 
-  admin: {
-    // User
-    getUser: sql("./admin/get-user.sql"),
-
-    // Balance
-    getBalance: sql("./admin/get-balance.sql"),
-    getBalanceId: sql("./admin/get-balance-id.sql"),
-    addBalance: sql("./admin/add-balance.sql"),
-    deleteBalance: sql("./admin/delete-balance.sql"),
-    updateBalance: sql("./admin/update-balance.sql"),
-
-    // Source
-    getSource: sql("./admin/get-source.sql"),
-  },
-
   student: {
     // Materias
     getMaterias: sql("./student/get-materias.sql"),
