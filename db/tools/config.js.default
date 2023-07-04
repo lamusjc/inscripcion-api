@@ -1,0 +1,5 @@
+module.exports = {
+  database: "postgres://username:password@host:port/database",
+  patchListDir: "../dev/upgrade/", // Acceso desde la carpeta tools
+  objectDefDir: "../dev/object/" // Acceso desde la carpeta tools
+};

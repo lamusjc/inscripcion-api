@@ -1,0 +1,19 @@
+{
+  "name": "inscripcion-db",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Inscripcion - DB",
+  "keywords": [],
+  "author": "Author, Inc",
+  "license": "",
+  "main": "apply-patch.js",
+  "dependencies": {
+    "async": "^2.6.1",
+    "lodash": "^4.17.11",
+    "pg-promise": "^10.5.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node apply-patch.js"
+  }
+}

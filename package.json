@@ -1,0 +1,13 @@
+{
+  "name": "inscripcion-api",
+  "version": "1.0.0",
+  "description": "Inscripcion API",
+  "main": "api/app.js",
+  "scripts": {
+    "start": "cd api && npm run start",
+    "test": "cd api && npm run test",
+    "patch": "cd db/tools && node apply-patch.js"
+  },
+  "author": "Author, Inc",
+  "license": "ISC"
+}
